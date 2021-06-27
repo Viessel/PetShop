@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+/* Header*/
+
+header {
+    background-color: #F0A83E;
+}
+
+.top-bar {
+    background-color: #222222;
+}
+
+.top-bar div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar span, .top-bar div span {
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0.1em 3em;
+}
+
+.h-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bar {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu div a {
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0.5em 0.5em 0.5em 0.1em;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    align-items: center;
+    display: flex;
+    margin-left: 2em;
+}
+
+.logo-primera {
+    color: #3C2313;
+}
+
+.logo-segunda {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 20px;
+    padding: 1em 0em;
+}
+
+/*Main*/
+
+.heroe {
+    background: url(../img/bowl-and-pet-daities-on-green-background\ 1.png) cyan no-repeat left/cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.texto-heroe {
+    text-align: center;
+    margin: 12px;
+}
+
+.texto-heroe h3{ 
+    border-radius: 5px;
+    background: white;
+     color: #3C2313;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.texto-heroe p {
+    color: #3C2313;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px;
+}
+
+.texto-heroe a{
+    display: inline-block;
+    background: #F0A83E;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 15px 23px;
+}
+
+.section-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.section-start h5 {
+    font-weight: 400;
+    font-size: 15px;
+    padding: 1em;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #FBFAF6;
+    margin: 3em 0em;
+}
+
+.product-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: #3C2313;
+    text-align: center;
+}
+
+.precio {
+    font-size: 15px;
+    font-weight: 500;
+    color: #F0A83E;
+    text-align: center;
+    padding: 0.2em;
+}
+
+/*Footer*/
+
+footer {
+    background-color: saddlebrown;
+    color: white;
+    font-weight: 700;
+}
+.footer-top {
+    background: #F0A83E;
+    padding: 0.4em;
+}
+
+.footer-mid {   
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.footer-icon {
+    font-size: 50px;  
+    margin: 20px 10px 20px 40px;
+}
+.contact-card article {
+    display: flex;
+}
+.contact-card h3 {
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.contact-card p {
+    color: #8A8787;
+    font-size: 12px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    margin: 30px;
+}
+
+.footer-logo img {
+    height: 14px;
+}
+
+.footer-bottom {
+    background: black;
+    font-size: 13px;
+    padding: 0.3em;
+    text-align: center;
+}

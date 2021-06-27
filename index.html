@@ -1,71 +1,126 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>Petshop FrontCat&Dog</title>
 </head>
 
 <body>
     <header>
-        <div id="barraSuperior">
-            <span>Grandes ofertas en comederos</span>
-            <span>Español</span>
-            <span>ARG$</span>
-        </div>
-        <div id="barraMenuPrincipal">
-            <h1>
-                <img src="img/Cat.png" alt="Gato logo">
-                <span>FrontCat&Dog</span>
-                <img src="img/Dog.png" alt="Perro logo">
-            </h1>
+        <div class="top-bar">
+            <div class="h-container">
+                <span>Grandes ofertas en comederos</span>
+                <div>
+                    <span>Español</span>
+                    <span>ARG$</span>
+                </div>
 
-            <nav>
-                <ul type="none">
-                    <li><img src="/img/pawprint 3.png" alt="imagen menu"><a href="">Categorias</a></li>
-                    <li><img src="/img/pawprint 3.png" alt="imagen menu"><a href="">Pets</a></li>
-                    <li><img src="/img/pawprint 3.png" alt="imagen menu"><a href="">Nosotros</a></li>
-                    <li><img src="/img/pawprint 3.png" alt="imagen menu"><a href="">Contactanos</a></li>
-                </ul>
+            </div>
+        </div>
+
+        <div class="h-container bar">
+            <div class="logo">
+                <img src="img/Cat.png" alt="Gato logo">
+                <h1><span class="logo-primera">Front</span><span class="logo-segunda">Cat&Dog</span></h1>
+                <img src="img/Dog.png" alt="Perro logo">
+            </div>
+
+            <nav class="menu">
+
+                <div class="button-container"><img src="img/pawprint 3.png" alt="imagen menu"><a href="">Categorias</a>
+                </div>
+                <div class="button-container"><img src="img/pawprint 3.png" alt="imagen menu"><a href="">Pets</a></div>
+                <div class="button-container"><img src="img/pawprint 3.png" alt="imagen menu"><a href="">Nosotros</a>
+                </div>
+                <div class="button-container"><img src="img/pawprint 3.png" alt="imagen menu"><a href="">Contactanos</a>
+                </div>
+
             </nav>
         </div>
     </header>
 
     <body>
-        <section id="banner">
-            <img src="img/bowl-and-pet-daities-on-green-background 1.png" alt="Patita">
-            <p>¡Es un placer tenerte aqui!</p>
-            <p>¡Comederos en descuentos!</p>
-            <p><a href="">COMEDEROS</a></p>
+        <section class="heroe">
+            <div class="texto-heroe">
+                <h3>¡Es un placer tenerte aqui!</h3>
+                <p>¡Comederos en descuentos!</p>
+                <a href="">COMEDEROS</a>
+            </div>
         </section>
 
-        <section id="seccionProductos">
-            <div>
-                <img src="img/pawprint 1.png" alt="prodPatita">
-                <h2>Productos Destacados</h2>
-                <h5>Comederos - Accesorios - Comida</h5>
-            </div>
-            <div>
+        <div class="section-start">
+            <img src="img/pawprint 1.png" alt="prodPatita">
+            <h2>Productos Destacados</h2>
+            <h5>Comederos - Accesorios - Comida</h5>
+        </div>
+
+        <section class="card-container h-container">
+            <article class="card">
                 <img src="img/churrasquito.png" alt="prodChurrasco">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
-            </div>
-            <div>
+                <p class="product-name">Juguete Churrasquito</p>
+                <p class="precio">$150</p>
+            </article>
+            <article class="card">
                 <img src="img/comedero.png" alt="prodComedero">
-                <p>Comedero para perro</p>
-                <p>$250</p>
-            </div>
-            <div>
+                <p class="product-name">Comedero para perro</p>
+                <p class="precio">$250</p>
+            </article>
+            <article class="card">
                 <img src="img/Huesito.png" alt="prodHueso">
-                <p>Juguete Huesito</p>
-                <p>$650</p>
-            </div>
+                <p class="product-name">Juguete Huesito</p>
+                <p class="precio">$650</p>
+            </article>
         </section>
     </body>
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+        <div class="footer-top">
+            <div class="h-container">
+                <h2>Suscribite!</h2>
+            </div>
+
+        </div>
+        <div class="footer-mid h-container">
+            <div class="footer-logo">
+                <img src="img/Cat.png" alt="Gato logo">
+                <span class="logo-primera">Front</span><span class="logo-segunda">Cat&Dog</span>
+                <img src="img/Dog.png" alt="Perro logo">
+            </div>
+            <section class="contact-card">
+                <article>
+                    <i class="fas fa-search-location footer-icon"></i>
+                    <div>
+                        <h3>Localidad</h3>
+                        <p>Av. Siempreviva - Argentina</p>
+                    </div>
+                </article>
+                <article>
+                    <i class="fas fa-phone-alt footer-icon"></i>
+                    <div>
+                        <h3>Telefono</h3>
+                        <p>123 - 456 7890</p>
+                    </div>
+                </article>
+                <article>
+                    <i class="fas fa-envelope-open footer-icon"></i>
+                    <div>
+                        <h3>Correo Electrónico</h3>
+                        <p>pet-shop@remail.com</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>Todos los derechos reservados Front End</p>
+        </div>
     </footer>
 
 </body>
