@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import "_base.scss";
+
+.logo {
+    display: flex;
+    align-items: center;
+    i {
+        padding: 0.3em;
+    }
+    span {
+        color: $color-secundario;
+    }
+}
+header {
+    @extend %enfasis;
+    .header-top {
+        background-color: $color-secundario;
+        div {
+            @extend %wrap;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    .header-bottom {
+        @extend %wrap;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .menu {
+            list-style: none;
+            &-button {
+                display: inline-block;
+                a::before {
+                    display: inline-block;
+                    font-family: "Font Awesome 5 Free"; 
+                    font-weight: 700;
+                    padding: 0.3em;
+                    content: "\f1b0";
+                }
+            }
+        }
+    }
+}

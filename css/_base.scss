@@ -1,0 +1,31 @@
+$color-principal: #F0A83E;
+$color-secundario: #222222;
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+%wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+%enfasis {
+    background-color: $color-principal;
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    display: inline-block;
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+}

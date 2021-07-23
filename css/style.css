@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header .header-top div, header .header-bottom {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #F0A83E;
+  color: white;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+a {
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo i {
+  padding: 0.3em;
+}
+
+.logo span {
+  color: #222222;
+}
+
+header .header-top {
+  background-color: #222222;
+}
+
+header .header-top div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-bottom .menu {
+  list-style: none;
+}
+
+header .header-bottom .menu-button {
+  display: inline-block;
+}
+
+header .header-bottom .menu-button a::before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  padding: 0.3em;
+  content: "\f1b0";
+}
+/*# sourceMappingURL=style.css.map */
