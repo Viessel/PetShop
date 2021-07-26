@@ -12,6 +12,9 @@
         color: $color-secundario;
     }
 }
+
+// Header
+
 header {
     @extend %enfasis;
     .header-top {
@@ -42,4 +45,17 @@ header {
             }
         }
     }
+}
+
+// Heroe
+
+.heroe {
+   
+    background: url('../img/bowl-and-pet-daities-on-green-background\ 1.png') #94d6ad no-repeat left/cover;
+    height: 400px;
+    &-texto {
+        justify-self: right;
+    }
+   
+    
 }
